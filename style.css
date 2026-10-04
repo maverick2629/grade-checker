@@ -1,0 +1,141 @@
+body {
+font-family: Arial, sans-serif;
+background-color: lightgray;
+margin: 0;
+min-height: 100vh;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#mainBox {
+width: 400px;
+position: relative;
+}
+
+#darkmode {
+position: absolute;
+top: -45px;
+right: 0;
+
+
+padding: 8px 12px;
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+
+#container {
+background-color: white;
+color: black;
+width: 100%;
+padding: 25px;
+box-sizing: border-box;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 0 10px gray;
+}
+
+h2 {
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+label {
+display: inline-block;
+margin-top: 5px;
+}
+
+input {
+width: 85%;
+padding: 10px;
+margin: 6px;
+border: 1px solid gray;
+border-radius: 5px;
+box-sizing: border-box;
+background-color: white;
+color: black;
+}
+
+button {
+background-color: black;
+color: white;
+padding: 10px 15px;
+margin: 8px 3px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: gray;
+}
+
+#calculate {
+background-color: green;
+}
+
+#calculate:hover {
+background-color: green;
+}
+
+#errorMessage {
+color: red;
+min-height: 18px;
+}
+
+#resultBox {
+background-color: lightgray;
+color: black;
+width: 85%;
+padding: 15px;
+margin: 20px auto;
+border-radius: 5px;
+text-align: center;
+overflow-wrap: break-word;
+}
+
+#gradeShow,
+#statusShow {
+font-size: 16px;
+font-weight: bold;
+}
+
+
+.dark {
+background-color: #222222;
+}
+
+.dark #container {
+background-color: black;
+color: white;
+}
+
+.dark input {
+background-color: #444444;
+color: white;
+border: 1px solid white;
+}
+
+.dark #resultBox {
+background-color: gray;
+color: white;
+}
+
+.dark #reset {
+background-color: gray;
+color: white;
+}
+
+.dark #darkmode {
+background-color: gray;
+color: white;
+}

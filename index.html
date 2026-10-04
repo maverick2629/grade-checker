@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Grade Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div id="mainBox">
+
+    <button id="darkmode">Dark Mode</button>
+
+    <div id="container">
+
+        <h2>Grade Calculator</h2>
+
+        <label for="grade1">Subject 1 Grade</label><br>
+        <input type="number" id="grade1" placeholder="Enter 1st Grade"><br>
+
+        <label for="grade2">Subject 2 Grade</label><br>
+        <input type="number" id="grade2" placeholder="Enter 2nd Grade"><br>
+
+        <label for="grade3">Subject 3 Grade</label><br>
+        <input type="number" id="grade3" placeholder="Enter 3rd Grade"><br>
+
+        <label for="grade4">Subject 4 Grade</label><br>
+        <input type="number" id="grade4" placeholder="Enter 4th Grade"><br>
+
+        <p id="errorMessage"></p>
+
+        <button id="calculate">Calculate Status</button>
+        <button id="reset">Reset</button>
+
+        <div id="resultBox">
+            <p id="gradeShow">Average: --</p>
+            <p id="statusShow">Academic Status: --</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="grade.js"></script>
+
+
+</body>
+
+</html>
